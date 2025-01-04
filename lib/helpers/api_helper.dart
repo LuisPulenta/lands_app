@@ -6,7 +6,8 @@ import 'constants.dart';
 class ApiHelper {
 //---------------------------------------------------------------------------
   static Future<Response> getLands() async {
-    var url = Uri.parse('${Constants.apiUrl}/all');
+    //var url = Uri.parse('${Constants.apiUrl}/name/argentina');
+    var url = Uri.parse('${Constants.apiUrl}/independent?status=true');
     var response = await http.get(
       url,
       headers: {

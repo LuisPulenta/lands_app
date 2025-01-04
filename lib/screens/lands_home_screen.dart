@@ -5,7 +5,6 @@ import 'package:lands_app/components/loader_component.dart';
 import 'package:lands_app/helpers/api_helper.dart';
 import 'package:lands_app/models/models.dart';
 import 'package:lands_app/screens/screens.dart';
-import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:custom_info_window/custom_info_window.dart';
 
